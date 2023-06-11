@@ -15,3 +15,4 @@
 //     return view('welcome');
 // });
 Route::resource('barang', 'BarangController');
+Route::resource('outlet', 'OutletController');

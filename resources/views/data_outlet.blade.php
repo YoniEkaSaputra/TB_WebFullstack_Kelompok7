@@ -10,6 +10,27 @@
     </head>
 
     <body>
+                <!-- A grey horizontal navbar that becomes vertical on small screens -->
+            <nav class="navbar navbar-expand-sm bg-light">
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo url('transaksi') ?>">Transaksi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo url('users') ?>">User</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo url('barang') ?>">Barang</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo url('outlet') ?>">Outlet</a>
+            </li>
+            </ul>
+            </nav>
+
+
             <div class="col mr-4">
               <div class="justify-content-center align-items-center">
                     <div class="d-flex justify-content-between mt-5 mb-2">

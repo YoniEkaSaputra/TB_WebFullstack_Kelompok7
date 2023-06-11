@@ -16,3 +16,5 @@
 // });
 Route::resource('barang', 'BarangController');
 Route::resource('outlet', 'OutletController');
+Route::resource('user', 'UsertController');
+Route::resource('transaksi', 'TransaksiController');
